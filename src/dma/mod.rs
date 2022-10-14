@@ -26,6 +26,8 @@ use traits::{
     Channel, DMASet, Direction, Instance, PeriAddress, SafePeripheralRead, Stream, StreamISR,
 };
 
+pub mod async_impl;
+
 /// Errors.
 #[derive(PartialEq, Eq)]
 pub enum DMAError<T> {
